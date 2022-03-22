@@ -1,46 +1,52 @@
 # 42 Tips and Tricks
 
 ## 42 Tools
-[Moulinette](https://moulinette.42lausanne.ch/)
-[42evaluators](https://42evaluatiors.com)
-[42url](https://42url.com/)
+- [Moulinette](https://moulinette.42lausanne.ch/)
+- [42evaluators](https://42evaluatiors.com)
+- [42url](https://42url.com/)
 
 ## Vim
 ### ⌨️ Shortcuts
-- `ctrl + z` get back to shell
-- `fg` get back to vim
-- `i` insert mode
-- `v` visual mode
-- `ctrl + esc :w` save
-- `ctrl + esc :x` save and quit
-- `ctrl + esc :q` quit without saving
-- `ctrl + esc :!q` force quit
-- `yy then p` copy/past
-- `dd` delete line
-- `dw` delete word
-- `x` delete char
-- `r` replace char
-- `:%s/foo/bar/g` search and replace
+- `Ctrl + Z` Get back to shell
+- `fg` Get back to vim
+- `i` Insert mode
+- `v` Visual mode
+- `Ctrl + Esc :w` Save
+- `Ctrl + Esc :x` Save and quit
+- `Ctrl + Esc :q` Quit without saving
+- `Ctrl + Esc :!q` Force quit
+- `yy` Copy
+- `p` Past
+- `dd` Delete line
+- `dw` Delete word
+- `x` Delete char
+- `r` Replace char
+- `:%s/foo/bar/g` Search and replace
 
 ### 🔧 Configuration
-- `:set number` show line number
-- `:syntax on` turn on syntax highlighting
-- `:set ruler` show numbers of columns
-- `:set mouse -=a` allow copy/past mouse
+- `:set number` Show line number
+- `:syntax on` Turn on syntax highlighting
+- `:set ruler` Show numbers of columns
+- `:set mouse -=a` Allow mouse copy/past
 
-# Git
-#### configure gitignore as global
+## Git
+### Configure gitignore as global
+```
 git config --global core.excludesfile ~/.gitignore_global
-
-#### See changes of files modified
-- `git diff` see changes of files modified
-
+```
+### See changes of files modified
+```
+git diff
+```
+### Clone repo with submodules
+```
+# first clone
 git clone --recurse-submodules
 
-or if you have already cloned
-
+# with repo already cloned
 git submodule init 
 git submodule update
+```
 
 TLDR
 
@@ -55,12 +61,23 @@ In summary, if you want to contribute to a project, the simplest way is to:
     Click the Compare & pull request button
     Click Create pull request to open a new pull request
 
-# GCC
-#### Detect memory leaks
+## Detect memory leaks with GCC
+```
 gcc -g3 -fsanitize=address
-
-# LLDB
-https://kevinushey.github.io/blog/2015/04/13/debugging-with-lldb/
+```
+## Debugging with LLDB
+1. Run debugger 
+```
+lldb ./your-prog
+```
+2. Set breakpoint
+```
+breakpoint set --name ft_strlen
+or
+b ft_strlen
+```
+##### Sources
+[debugging-with-lldb](https://kevinushey.github.io/blog/2015/04/13/debugging-with-lldb/)
 
 
 # Tarball
