@@ -59,6 +59,10 @@ In summary, if you want to contribute to a project, the simplest way is to:
 #### Detect memory leaks
 gcc -g3 -fsanitize=address
 
+# LLDB
+https://kevinushey.github.io/blog/2015/04/13/debugging-with-lldb/
+
+
 # Tarball
 tar -cvf test.tar **/main.c
 tar -xvf test.tar
