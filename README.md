@@ -56,6 +56,28 @@ git clone --recurse-submodules
 git submodule init 
 git submodule update
 ```
+### Undo last git commit
+```
+git reset --soft HEAD~1
+```
+[more](https://devconnected.com/how-to-undo-last-git-commit/)
+
+### Stashing and Cleaning
+```
+git stash
+git stash pop
+```
+[more](https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning)
+
+### Tagging
+```
+git tag -a v1.4 -m "my version 1.4"
+git tag
+git push --tags <repo-name>
+```
+[more](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
+[more](https://stackabuse.com/git-push-tags-to-a-remote-repo/)
+
 ## Detect memory leaks
 ### GCC
 ```
@@ -77,7 +99,8 @@ valgrind --leak-check=full \
          --log-file=valgrind-out.txt \
          ./executable exampleParam1
 ```
-## Debugging with LLDB
+## Debugging
+### LLDB
 1. Run debugger 
 ```
 lldb ./your-prog
@@ -88,6 +111,9 @@ breakpoint set --name ft_strlen
 or
 b ft_strlen
 ```
+### VS Code
+[source](https://code.visualstudio.com/docs/editor/debugging)
+
 ## References
 - [kevinushey](https://kevinushey.github.io/blog/2015/04/13/debugging-with-lldb/) - Debugging with lldb
 - [stackoverflow](https://stackoverflow.com/questions/5134891/how-do-i-use-valgrind-to-find-memory-leaks) - How to Run Valgrind
