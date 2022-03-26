@@ -138,6 +138,18 @@ b ft_strlen
 ### VS Code
 [source](https://code.visualstudio.com/docs/editor/debugging)
 
+## Screenshot
+### Ubuntu
+- `Print Screen` to take a screenshot of the desktop.
+- `Alt + Print Screen` to take a screenshot of a window.
+- `Shift + Print Screen` to take a screenshot of an area you select.
+### MacOS
+- `Shift + Command + 3` to take a screenshot of the desktop.
+- `Shift + Command + 4` to take a screenshot of a portion of the screen
+- `Shift + Command + 4 + Space` to take a screenshot of a window or menu
+### Firefox
+- `Ctrl + Shift + S` to take a screenshot of full page.
+
 ## References
 - [kevinushey](https://kevinushey.github.io/blog/2015/04/13/debugging-with-lldb/) - Debugging with lldb
 - [stackoverflow](https://stackoverflow.com/questions/5134891/how-do-i-use-valgrind-to-find-memory-leaks) - How to Run Valgrind
