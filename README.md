@@ -14,6 +14,13 @@
 man ascii
 ```
 
+### 42 Homebrew
+1. Install Homebrew properly on your 42 session
+```
+curl -fsSL https://rawgit.com/kube/42homebrew/master/install.sh | zsh
+```
+2. [More](https://github.com/kube/42homebrew)
+
 ## Vim
 ### Shortcuts
 - `Ctrl + Z` Get back to shell
