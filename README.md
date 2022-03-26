@@ -38,6 +38,23 @@ man ascii
 - `:set ruler` Show numbers of columns
 - `:set mouse -=a` Allow mouse copy/past
 
+## Generate an SSH Key Pair
+1. Open new terminal and type
+```
+cd ~/
+```
+2. Create an RSA key
+```
+ssh-keygen -b 2048 -t rsa
+```
+3. Complete fiedls.
+4. Copy content of `id_rsa.pub`
+```
+cat ~/.ssh/id_rsa.pub
+```
+5. Go to [profile.intra.42.fr](https://profile.intra.42.fr/gitlab_users)
+6. Add your public key
+
 ## Git
 ### Configure gitignore as global
 ```
