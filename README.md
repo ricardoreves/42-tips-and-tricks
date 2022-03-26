@@ -19,7 +19,7 @@ man ascii
 ```
 curl -fsSL https://rawgit.com/kube/42homebrew/master/install.sh | zsh
 ```
-2. [More](https://github.com/kube/42homebrew)
+2. [Learn more](https://github.com/kube/42homebrew)
 
 ## Vim
 ### Shortcuts
