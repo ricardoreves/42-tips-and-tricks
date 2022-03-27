@@ -55,12 +55,12 @@ cd ~/
 ssh-keygen -b 2048 -t rsa
 ```
 3. Complete fiedls.
-4. Copy content of `id_rsa.pub`
+4. Copy content of the public key
 ```
 cat ~/.ssh/id_rsa.pub
 ```
 5. Go to [profile.intra.42.fr](https://profile.intra.42.fr/gitlab_users)
-6. Add your public key
+6. Add the copied public key
 
 ## Git
 ### Configure gitignore as global
