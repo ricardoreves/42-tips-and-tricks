@@ -63,6 +63,9 @@ cat ~/.ssh/id_rsa.pub
 6. Add the copied public key
 
 ## Git
+### Authentification
+- [Learn more](https://docs.github.com/en/authentication)
+
 ### Configure gitignore as global
 ```
 git config --global core.excludesfile ~/.gitignore_global
