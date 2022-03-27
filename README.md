@@ -102,6 +102,15 @@ git push --tags <repo-name>
 [more](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
 [more](https://stackabuse.com/git-push-tags-to-a-remote-repo/)
 
+### Delete branch
+```
+# delete remote branch
+git push -d origin <branch_name>
+
+# delete local branch
+git branch -d <branch_name>
+```
+
 ## Detect memory leaks
 ### GCC
 ```
