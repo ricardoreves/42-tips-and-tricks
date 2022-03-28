@@ -178,6 +178,14 @@ In summary, if you want to contribute to a project, the simplest way is to:
     Push it back to your repo
     Click the Compare & pull request button
     Click Create pull request to open a new pull request
+    
+```
+sudo apt  install universal-ctags
+ctags -x -f - --c-kinds=f push_swap.c
+ctags -x --c-kinds=fp push_swap.c | awk '{$1=$2=$3=$4=""; print $0}' | awk '{$1=$1};1' | sed -z 's/\n/;\n/g'
+ctags -x --c-kinds=fp utils.c | awk '{$1=$2=$3=$4=""; print $0}' | awk '{$1=$1};1' | sed -z 's/\n/;\n/g'
+```
+ 
 
 
 
