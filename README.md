@@ -17,6 +17,7 @@ man ascii
 ## SHELL
 - [explainshell.com](https://explainshell.com/explain?cmd=grep.1%20-oE%20%22ERROR%7CWARN%22%20%2Alog%2A%20%7C%20sort%20%7C%20uniq%20-cDFLAGS
 ) - Write down a command-line to see the help text that matches each argument
+- [command-not-found.com](https://command-not-found.com/) -  Install any command on any operating system. 
 
 ### 42 Homebrew
 1. Install Homebrew properly on your 42 session
