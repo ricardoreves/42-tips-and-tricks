@@ -119,6 +119,11 @@ git push -d origin <branch_name>
 git branch -d <branch_name>
 ```
 
+### Change a Git remote URL
+```
+git remote set-url origin <git@github.com:username/project.git>
+```
+
 ## Detect memory leaks
 ### GCC
 ```
