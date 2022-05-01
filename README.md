@@ -71,7 +71,7 @@ cat ~/.ssh/id_rsa.pub
 
 ## Git
 ### Authentification
-- [Learn more](https://docs.github.com/en/authentication)
+- [source](https://docs.github.com/en/authentication)
 
 ### Configure gitignore as global
 ```
@@ -94,14 +94,14 @@ git submodule update
 ```
 git reset --soft HEAD~1
 ```
-[more](https://devconnected.com/how-to-undo-last-git-commit/)
+- [source](https://devconnected.com/how-to-undo-last-git-commit/)
 
 ### Stashing and Cleaning
 ```
 git stash
 git stash pop
 ```
-[more](https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning)
+- [source](https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning)
 
 ### Tagging
 ```
@@ -109,8 +109,8 @@ git tag -a v1.4 -m "my version 1.4"
 git tag
 git push --tags <repo-name>
 ```
-[more](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
-[more](https://stackabuse.com/git-push-tags-to-a-remote-repo/)
+- [source](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
+- [source](https://stackabuse.com/git-push-tags-to-a-remote-repo/)
 
 ### Delete branch
 ```
@@ -131,6 +131,14 @@ git remote set-url origin <git@github.com:username/project.git>
 ```
 gcc -g3 -fsanitize=address
 ```
+
+### Diff
+On Unix-like operating systems, the diff command analyzes two files and prints the lines that are different. In essence, it outputs a set of instructions for how to change one file to make it identical to the second file.
+```
+diff -u file1.txt file2.txt
+```
+- [source](https://www.computerhope.com/unix/udiff.htm)
+
 ### Valgrind
 1. Install
 ```
@@ -160,7 +168,7 @@ or
 b ft_strlen
 ```
 ### VS Code
-[source](https://code.visualstudio.com/docs/editor/debugging)
+- [source](https://code.visualstudio.com/docs/editor/debugging)
 
 ## Screenshot
 ### Ubuntu
