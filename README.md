@@ -126,6 +126,9 @@ git branch -d <branch_name>
 git remote set-url origin <git@github.com:username/project.git>
 ```
 
+## VSCODE Debug
+- [gourav.io](https://gourav.io/blog/setup-vscode-to-run-debug-c-cpp-code) - 
+
 ## Detect memory leaks
 ### GCC
 ```
