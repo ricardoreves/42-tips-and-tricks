@@ -28,6 +28,9 @@ curl -fsSL https://rawgit.com/kube/42homebrew/master/install.sh | zsh
 ```
 2. [Learn more](https://github.com/kube/42homebrew)
 
+## Find and Launch Mac Apps
+- `Command (⌘) + Space`
+
 ## Vim
 ### Shortcuts
 - `Ctrl + Z` Get back to shell
