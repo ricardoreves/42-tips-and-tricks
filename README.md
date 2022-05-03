@@ -2,7 +2,7 @@
 
 ## Useful Links
 - [moulinette](https://moulinette.42lausanne.ch/) - Moulinette web interface
-- [42evaluators](https://42evaluatiors.com) - 42evaluators is originialy created to find an active student to set up a correction
+- [42evaluators](https://42evaluators.com/) - 42evaluators is originialy created to find an active student to set up a correction
 - [42url](https://42url.com/) - U42url.com is a fast and free url shortener
 - [42api](https://api.intra.42.fr/apidoc) - The 42 API provide programmatic access to read and write 42's data
 - [42stud](https://www.https://www.42stud.com/.com/) - A minimal, clean, and student driven list of usefull 
