@@ -174,6 +174,8 @@ breakpoint set --name ft_strlen
 or
 b ft_strlen
 ```
+- [GDB to LLDB command map](https://lldb.llvm.org/use/map.html)
+
 ### VS Code
 - [source](https://code.visualstudio.com/docs/editor/debugging)
 
