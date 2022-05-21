@@ -164,16 +164,56 @@ valgrind --leak-check=full \
 ```
 ## Debugging
 ### LLDB
-1. Run debugger 
+1. Launch lldb `lldb <prog> <arg1> <arg2>`
+2. Set breakpoint `b <funct_name>`
+3. Launch the executable in the debugger `run`
+4. Some helpful commands
 ```
-lldb ./your-prog
+  expression      -- Evaluate an expression on the current thread.  Displays
+                       any returned value with LLDB's default formatting.
+  frame           -- Commands for selecting and examing the current thread's
+  gui             -- Switch into the curses based GUI mode.
+  help            -- Show a list of all debugger commands, or give details
+                       about a specific command.
+  target          -- Commands for operating on debugger targets.
+  
+  b         -- Set a breakpoint using one of several shorthand formats.
+  bt        -- Show the current thread's call stack.  Any numeric argument
+               displays at most that many frames.  The argument 'all' displays
+               all threads.  Use 'settings set frame-format' to customize the
+               printing of individual frames and 'settings set thread-format'
+               to customize the thread header.
+  c         -- Continue execution of all threads in the current process.
+  display   -- Evaluate an expression at every stop (see 'help target
+               stop-hook'.)
+  j         -- Set the program counter to a new address.
+  kill      -- Terminate the current target process.
+  l         -- List relevant source code using one of several shorthand formats.
+  n         -- Source level single step, stepping over calls.  Defaults to
+  p         -- Evaluate an expression on the current thread.  Displays any
+               returned value with LLDB's default formatting.
+  q         -- Quit the LLDB debugger.
+  r         -- Launch the executable in the debugger.
+  s         -- Source level single step, stepping into calls.  Defaults to
+  v         -- Show variables for the current stack frame. Defaults to all
+               arguments and local variables in scope. Names of argument,
+               local, file static and file global variables can be specified.
+               Children of aggregate variables can be specified such as
+               'var->child.x'.  The -> and [] operators in 'frame variable' do
+               not invoke operator overloads if they exist, but directly access
+               the specified element.  If you want to trigger operator
+               overloads use the expression command to print the variable
+               instead.
+               It is worth noting that except for overloaded operators, when
+               printing local variables 'expr local_var' and 'frame var
+               local_var' produce the same results.  However, 'frame variable'
+               is more efficient, since it uses debug information and memory
+               reads directly, rather than parsing and evaluating an
+               expression, which may even involve JITing and running code in
+               the target program.
+
 ```
-2. Set breakpoint
-```
-breakpoint set --name ft_strlen
-or
-b ft_strlen
-```
+- [Learn the lldb debugger basics in 11 minutes](https://www.youtube.com/watch?v=v_C1cvo1biI)
 - [GDB to LLDB command map](https://lldb.llvm.org/use/map.html)
 
 ### VS Code
