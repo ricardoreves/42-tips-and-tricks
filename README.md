@@ -220,6 +220,7 @@ valgrind --leak-check=full \
 - [GDB to LLDB command map](https://lldb.llvm.org/use/map.html)
 - [How to find Segmentation Error in C & C++ ? (Using GDB)](https://www.geeksforgeeks.org/how-to-find-segmentation-error-in-c-c-using-gdb/?ref=lbp)
 - [Pony LLDB Cheat Sheet](https://www.ponylang.io/reference/pony-lldb-cheatsheet/)
+- [How to use the GDB debugger - basics](https://www.cs.fsu.edu/~myers/cop3330/debug/debugger.html)
 
 ### VS Code
 - [debugging](https://code.visualstudio.com/docs/editor/debugging)
