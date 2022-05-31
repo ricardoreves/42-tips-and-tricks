@@ -165,10 +165,11 @@ valgrind --leak-check=full \
 ## Debugging
 ### LLDB
 #### Usage
+0. Compile `gcc -g main.c`-o <prog>
 1. Launch lldb `lldb <prog> <arg1> <arg2>`
 2. Set breakpoint `b <funct_name>`
 3. Launch the executable in the debugger `run`
-4. Some helpful commands
+- Some helpful commands
 ```
   expression      -- Evaluate an expression on the current thread.  Displays
                        any returned value with LLDB's default formatting.
