@@ -133,6 +133,9 @@ git remote set-url origin <git@github.com:username/project.git>
 ## VSCODE Debug
 - [gourav.io](https://gourav.io/blog/setup-vscode-to-run-debug-c-cpp-code) - 
 
+### Clang-format
+- [How to set up clang-format in Visual Studio Code in a Vagrant environment](https://eellaup.medium.com/how-to-set-up-clang-format-in-visual-studio-code-in-a-vagrant-environment-georgiatech-gios-1935ed73efd1)
+
 ## Detect memory leaks
 ### GCC
 ```
