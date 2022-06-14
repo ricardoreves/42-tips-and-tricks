@@ -7,6 +7,7 @@
 - [42api](https://api.intra.42.fr/apidoc) - The 42 API provide programmatic access to read and write 42's data
 - [42stud](https://www.https://www.42stud.com/.com/) - A minimal, clean, and student driven list of usefull 
 - [42tools](https://github.com/solareenlo/42tools) - Collection of 42 tools
+- [42l](https://42l.fr/Accueil) - Association étudiante loi 1901 d'intérêt général ayant pour mission de promouvoir la culture libre et l'éthique. 
 - [recruitin](https://recruitin.net/) - Easily use Google to search profiles on LinkedIn
 - [onlinegdb](https://www.onlinegdb.com/online_c_compiler) - Online compiler and debugger for c/c++
 - [stacked-crooked](http://coliru.stacked-crooked.com/) - Online compiler for c/c++
