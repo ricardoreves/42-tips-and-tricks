@@ -265,6 +265,19 @@ ctags -x --c-kinds=fp push_swap.c | awk '{$1=$2=$3=$4=""; print $0}' | awk '{$1=
 ctags -x --c-kinds=fp utils.c | awk '{$1=$2=$3=$4=""; print $0}' | awk '{$1=$1};1' | sed -z 's/\n/;\n/g'
 ```
  
+open ~/.zshrc using the below command
+
+vim ~/.zshrc
+
+Add the following path
+
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin" 
+
+And source it using below command
+
+source ~/.zshrc
+
+Now close the terminal and reopen and run code . command should work properly.
 
 
 
